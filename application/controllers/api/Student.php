@@ -4,6 +4,14 @@ require APPPATH.'libraries/REST_Controller.php';
 
 class Student extends REST_Controller{
 
+  public function __construct(){
+
+    parent::__construct();
+    //load database
+    $this->load->database();
+    $this->load->model(array("api/student_model"));
+  }
+
   /*
     INSERT: POST REQUEST TYPE
     UPDATE: PUT REQUEST TYPE
@@ -33,7 +41,30 @@ class Student extends REST_Controller{
   // GET: <project_url>/index.php/student
   public function index_get(){
     // list data method
-    echo "This is GET Method";
+    //echo "This is GET Method";
+    // SELECT * from tbl_students;
+    $students = $this->student_model->get_students();
+
+    //print_r($query->result());
+
+    if(count($students) > 0){
+
+      $this->response(array(
+        "status" => 1,
+        "message" => "Students found",
+        "data" => $students
+      ), REST_Controller::HTTP_OK);
+    }else{
+
+      $this->response(array(
+        "status" => 0,
+        "message" => "No Students found",
+        "data" => $students
+      ), REST_Controller::HTTP_NOT_FOUND);
+    }
+
+
+
   }
 }
 
