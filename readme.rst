@@ -1,70 +1,91 @@
 ###################
-What is CodeIgniter
+Online Web Tutor blog
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This is a developed community where you will find several interesting blog articles with short and cool codes. It contains Laravel 8, CodeIgniter 4, MySQL, WordPress, Node Js etc. Please visit once and see the power of learning from this blog. 
 
 *******************
-Release Information
+Find your Article
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+-  `Laravel 8 <https://onlinewebtutorblog.com/category/laravel-8/>`_
+-  `CakePHP 4 <https://onlinewebtutorblog.com/category/cakephp-4/>`_
+-  `CodeIgniter 4 <https://onlinewebtutorblog.com/category/codeigniter-4/>`_
+-  `WordPress <https://onlinewebtutorblog.com/category/wordpress/>`_
+-  `MySQL <https://onlinewebtutorblog.com/category/mysql/>`_
+-  `Node Js with Sequelize <https://onlinewebtutorblog.com/category/node-js-sequelize-orm/>`_
 
 *******************
-Server Requirements
+CakePHP 4
 *******************
 
-PHP version 5.6 or newer is recommended.
+-  `An Introduction to CakePHP 4 basics – Complete Beginners Guide <https://onlinewebtutorblog.com/cakephp-4-basics-tutorial-for-beginners-tutorial/>`_
+-  `An Introduction to CakePHP 4 Routes Tutorial – Complete Guide <https://onlinewebtutorblog.com/cakephp-4-routes-tutorial/>`_
+-  `CakePHP 4 CRUD Tutorial with MySQL (Create, Read, Update & Delete) <https://onlinewebtutorblog.com/cakephp-4-crud-tutorial-with-mysql/>`_
+-  `CakePHP 4 Custom Validation Rule For Form Inputs <https://onlinewebtutorblog.com/cakephp-4-custom-validation-rule/>`_
+-  `CakePHP 4 Form Validation with Example <https://onlinewebtutorblog.com/cakephp-4-form-validation/>`_
+-  `How Auth Works in CakePHP 4 ? Authentication Tutorial in CakePHP 4 <https://onlinewebtutorblog.com/authentication-tutorial-in-cakephp-4/>`_
+-  `Working with CakePHP 4 Cron Jobs <https://onlinewebtutorblog.com/working-with-cakephp-4-cron-jobs/>`_
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
 
-************
-Installation
-************
+*******************
+CodeIgniter 4
+*******************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+- Ajax Request in CodeIgniter 4 | Form Data Submit by Ajax
+- CodeIgniter 4 Cookie Helper Tutorial
+- CodeIgniter 4 CRUD Tutorial | CRUD Example in CodeIgniter 4
+- CodeIgniter 4 CSRF Token | Implementation of CSRF Token in Application
+- CodeIgniter 4 Custom Library | How can Create Custom Library in CodeIgniter ?
+- CodeIgniter 4 Database Query – Complete Methods to Execute Queries
+- CodeIgniter 4 Form Validation Library – Easy & Complete Guide
+- CodeIgniter 4 Image Upload with Form data | CodeIgniter 4 Image Upload
+- CodeIgniter 4 Language Localization | CodeIgniter 4 Website in Multi Language
+- Codeigniter 4 Login and Registration | CodeIgniter 4 Signup Login
+- Codeigniter 4 Remove Public and Index.php From URL
+- CodeIgniter 4 REST APIs Development | CRUD APIs in CodeIgniter 4
+- CodeIgniter 4 RESTful APIs with JWT Authentication
+- CodeIgniter 4 Server Side DataTable Using SSP Library
+- CodeIgniter 4 Spark Module – CLI Tool To manage Database – Step by Step Guide
+- CodeIgniter 4 Upload Image with Form data using Ajax Request
+- CodeIgniter 4 Working with Multiple Databases & Connection Groups
+- Complete CodeIgniter 4 Basics Tutorial for Beginners
+- How to Fix Session Fixation Session Hijacking Attack in CodeIgniter ?
+- Joins in CodeIgniter 4 | Working with MySQL Joins in CodeIgniter 4 Application
+- Working with CodeIgniter 4 Model and Entity
 
-*******
-License
-*******
+*******************
+Laravel 8
+*******************
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+- Laravel 8 Installation Guide – PHP Framework
+- Laravel 8 Routing Tutorial Step by Step Guide
 
-*********
-Resources
-*********
+*******************
+MySQL
+*******************
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+- 10 Basic Commands of MySQL for Beginners – PhpMyAdmin
+- Basics Overview of MySQL Stored Procedures ? Very easy guide to learn.
+- Step by Step to Create & Call MySQL Stored Procedure – Code Basics
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+*******************
+Node Js Sequelize ORM
+*******************
+- Create Models in Node Js Sequelize ORM
+- Node Express Sequelize ORM CRUD APIs with MySQL
 
-***************
-Acknowledgement
-***************
+*******************
+Wordpress
+*******************
+- An Introduction to WordPress Global Variables- Step by Step Complete Guide
+- How can we create a Basic Widget Plugin in WordPress, Step by Step Tutorial
+- How to Perform Insert, Update & Delete with WordPress Global Database Object?
+- How to Use & Work with jQuery UI in WordPress ? Complete Guide to learn.
+- Step by Step Complete Basics Overview of WordPress Widget – What & Why ?
+- Step by Step guide to use WordPress Database Object – Find or Search Custom Queries.
+- WordPress Built-in Functions & Custom Queries using $wpdb in Widget Development
+- WordPress Theme Development Tutorial – Step by Step Beginner’s Guide
+- WordPress WP CLI Command Line Tool – Complete Guide to Work
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+
